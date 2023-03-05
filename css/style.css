@@ -1,0 +1,52 @@
+#container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    
+    
+}
+
+div {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', Geneva;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 7px;
+    font-family:monospace;
+    background-color: aquamarine;
+    font-size: 15px;
+    color:rgb(136, 94, 136);
+}
+
+#result {
+    text-align: center;
+    background-color: turquoise;
+    margin: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+}
+
+body {
+    background-color:darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: rgb(213, 221, 227)
+}
+
+input {
+    background-color:thistle;
+    font-family:Georgia, 'Times New Roman';
+}
+
